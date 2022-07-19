@@ -1,4 +1,4 @@
-package com.example.firstAndroid.ActivityLifeCycle
+package First_Android.ActivityLifeCycle
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

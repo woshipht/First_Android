@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".JSONObject.JSONObjectMainActivity">
+    tools:context="First_Android.JSONObject.JSONObjectMainActivity">
 
     <Button
         android:id="@+id/sendRequestBtn_JSONObject"

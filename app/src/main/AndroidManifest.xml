@@ -1,45 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.firstAndroid">
+    package="com.example.firstAndroid" >
 
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:label="学就完了"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.First_Android"
         android:usesCleartextTraffic="true">
         <activity
-            android:name=".Retrofit.RetrofitMainActivity"
-            android:exported="false" />
-        <activity
-            android:name=".JSONObject.JSONObjectMainActivity"
-            android:exported="false" />
-        <activity
-            android:name=".OkHttp.OkHttpMainActivity"
-            android:exported="false" />
-        <activity
-            android:name=".HttpURLConnection.HttpURLConnectionMainActivity"
-            android:exported="false" />
-        <activity
-            android:name=".ActivityLifeCycle.NormalActivity"
-            android:exported="false" />
-        <activity
-            android:name=".ActivityLifeCycle.DialogActivity"
-            android:exported="false"
-            android:theme="@style/Theme.AppCompat.Dialog" />
-        <activity
-            android:name=".ActivityLifeCycle.ActivityLifeCycleMainActivity"
+            android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="First_Android.Retrofit.RetrofitMainActivity"
+            android:exported="false" />
+        <activity
+            android:name="First_Android.JSONObject.JSONObjectMainActivity"
+            android:exported="false" />
+        <activity
+            android:name="First_Android.OkHttp.OkHttpMainActivity"
+            android:exported="false" />
+        <activity
+            android:name="First_Android.HttpURLConnection.HttpURLConnectionMainActivity"
+            android:exported="false" />
+        <activity
+            android:name="First_Android.ActivityLifeCycle.NormalActivity"
+            android:exported="false" />
+        <activity
+            android:name="First_Android.ActivityLifeCycle.DialogActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Dialog" />
+        <activity
+            android:name="First_Android.ActivityLifeCycle.ActivityLifeCycleMainActivity"
+            android:exported="false" />
     </application>
 
 </manifest>

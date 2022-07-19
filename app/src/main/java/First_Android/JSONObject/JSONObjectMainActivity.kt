@@ -1,4 +1,4 @@
-package com.example.firstAndroid.JSONObject
+package First_Android.JSONObject
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -7,13 +7,12 @@ import android.util.Log
 import android.view.Menu
 import android.view.MenuItem
 import android.widget.Toast
-import com.example.firstAndroid.ActivityLifeCycle.ActivityLifeCycleMainActivity
-import com.example.firstAndroid.HttpURLConnection.HttpURLConnectionMainActivity
-import com.example.firstAndroid.OkHttp.OkHttpMainActivity
+import First_Android.ActivityLifeCycle.ActivityLifeCycleMainActivity
+import First_Android.HttpURLConnection.HttpURLConnectionMainActivity
+import First_Android.OkHttp.OkHttpMainActivity
 import com.example.firstAndroid.R
-import com.example.firstAndroid.Retrofit.RetrofitMainActivity
+import First_Android.Retrofit.RetrofitMainActivity
 import kotlinx.android.synthetic.main.activity_main_jsonobject.*
-import kotlinx.android.synthetic.main.activity_main_okhttp.*
 import okhttp3.OkHttpClient
 import okhttp3.Request
 import org.json.JSONArray
@@ -81,47 +80,5 @@ class JSONObjectMainActivity : AppCompatActivity() {
         runOnUiThread {
             responseText_JSONObject.text = response
         }
-    }
-
-    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
-        menuInflater.inflate(R.menu.menu, menu)
-        return true
-    }
-
-    override fun onOptionsItemSelected(item: MenuItem): Boolean {
-        when (item.itemId) {
-            R.id.ActivityLifeCycle -> {
-                val intent = Intent()
-                intent.setClass(this, ActivityLifeCycleMainActivity::class.java)
-                startActivity(intent)
-                finish()
-                Toast.makeText(this, "Jump to ActivityLifeCycle", Toast.LENGTH_SHORT).show()
-            }
-
-            R.id.OkHttp -> {
-                val intent = Intent()
-                intent.setClass(this, OkHttpMainActivity::class.java)
-                startActivity(intent)
-                finish()
-                Toast.makeText(this,"Jump to OkHttp", Toast.LENGTH_SHORT).show()
-            }
-
-            R.id.HttpURLConnection -> {
-                val intent = Intent()
-                intent.setClass(this, HttpURLConnectionMainActivity::class.java)
-                startActivity(intent)
-                finish()
-                Toast.makeText(this,"Jump to HttpURLConnection", Toast.LENGTH_SHORT).show()
-            }
-
-            R.id.Retrofit -> {
-                val intent = Intent()
-                intent.setClass(this, RetrofitMainActivity::class.java)
-                startActivity(intent)
-                finish()
-                Toast.makeText(this,"Jump to Retrofit", Toast.LENGTH_SHORT).show()
-            }
-        }
-        return true
     }
 }

@@ -1,4 +1,4 @@
-package com.example.firstAndroid.Retrofit
+package First_Android.Retrofit
 
 class information(val picture:String, val title: String,
                   val author: String, val update: String,
