@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/layout/activity_dialog.xml" value="0.25769927536231885" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.12291666666666666" />
+        <entry key="app/src/main/res/layout/activity_main_http.xml" value="0.334375" />
+        <entry key="app/src/main/res/layout/activity_main_json.xml" value="0.33229166666666665" />
+        <entry key="app/src/main/res/layout/activity_main_jsonobject.xml" value="0.33229166666666665" />
+        <entry key="app/src/main/res/layout/activity_main_life_cycle.xml" value="0.334375" />
+        <entry key="app/src/main/res/layout/activity_main_okhttp.xml" value="0.33229166666666665" />
+        <entry key="app/src/main/res/layout/activity_main_retrofit.xml" value="0.11979166666666667" />
+        <entry key="app/src/main/res/layout/activity_normal.xml" value="0.13697916666666668" />
+        <entry key="app/src/main/res/menu/menu.xml" value="0.33229166666666665" />
+        <entry key="app/src/main/res/xml/network_config.xml" value="0.14479166666666668" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

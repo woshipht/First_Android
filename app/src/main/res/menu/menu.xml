@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/ActivityLifeCycle"
+        android:title="ActivityLifeCycle"
+        android:orderInCategory="1"/>
+
+    <item android:id="@+id/HttpURLConnection"
+        android:title="HttpURLConnection"
+        android:orderInCategory="1"/>
+
+    <item android:id="@+id/OkHttp"
+        android:title="OkHttp"
+        android:orderInCategory="1"/>
+
+    <item android:id="@+id/JSONObject"
+        android:title="JSONObject"
+        android:orderInCategory="1"/>
+
+    <item android:id="@+id/Retrofit"
+        android:title="Retrofit"
+        android:orderInCategory="1"/>
+
+</menu>
