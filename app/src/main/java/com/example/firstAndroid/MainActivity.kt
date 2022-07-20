@@ -20,15 +20,6 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        initData()
-    }
-
-    private fun initData(){
-        menuList.add(MenuItemInfo(R.id.HttpURLConnection,HttpURLConnectionMainActivity::class.java,"HttpURLConnection"))
-        menuList.add(MenuItemInfo(R.id.OkHttp,OkHttpMainActivity::class.java,"OkHttp"))
-        menuList.add(MenuItemInfo(R.id.JSONObject, JSONObjectMainActivity::class.java,"JSONObject"))
-        menuList.add(MenuItemInfo(R.id.Retrofit, RetrofitMainActivity::class.java,"Retrofit"))
-        menuList.add(MenuItemInfo(R.id.ActivityLifeCycle, ActivityLifeCycleMainActivity::class.java,"ActivityLifeCycle"))
     }
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
