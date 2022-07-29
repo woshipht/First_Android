@@ -13,6 +13,9 @@
         android:theme="@style/Theme.First_Android"
         android:usesCleartextTraffic="true">
         <activity
+            android:name="First_Android.viewModel.ViewModelActivity"
+            android:exported="false" />
+        <activity
             android:name="First_Android.ActivityCollector.FirstActivityOfActivityCollector"
             android:exported="false" />
         <activity

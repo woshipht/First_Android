@@ -24,4 +24,8 @@
         android:title="ActivityCollector"
         android:orderInCategory="1"/>
 
+    <item android:id="@+id/ViewModel"
+        android:title="ViewModel"
+        android:orderInCategory="1"/>
+
 </menu>
