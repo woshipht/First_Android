@@ -13,7 +13,10 @@
         android:theme="@style/Theme.First_Android"
         android:usesCleartextTraffic="true">
         <activity
-            android:name="First_Android.viewModel.ViewModelActivity"
+            android:name="First_Android.Rxjava.RxJavaActivity"
+            android:exported="false" />
+        <activity
+            android:name="First_Android.ViewModel.ViewModelActivity"
             android:exported="false" />
         <activity
             android:name="First_Android.ActivityCollector.FirstActivityOfActivityCollector"

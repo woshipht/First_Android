@@ -6,7 +6,8 @@ import First_Android.HttpURLConnection.HttpURLConnectionMainActivity
 import First_Android.JSONObject.JSONObjectMainActivity
 import First_Android.OkHttp.OkHttpMainActivity
 import First_Android.Retrofit.RetrofitMainActivity
-import First_Android.viewModel.ViewModelActivity
+import First_Android.Rxjava.RxJavaActivity
+import First_Android.ViewModel.ViewModelActivity
 import com.example.firstAndroid.R
 
 object MenuList {
@@ -20,6 +21,7 @@ object MenuList {
         menuList.add(MenuItemInfo(R.id.Retrofit, RetrofitMainActivity::class.java,"Retrofit"))
         menuList.add(MenuItemInfo(R.id.ActivityCollector, FirstActivityOfActivityCollector::class.java,"ActivityCollector"))
         menuList.add(MenuItemInfo(R.id.ViewModel, ViewModelActivity::class.java,"ViewModel"))
+        menuList.add(MenuItemInfo(R.id.RxJava, RxJavaActivity::class.java,"RxJava"))
     }
 
     fun getMenuList(): MutableSet<MenuItemInfo> {

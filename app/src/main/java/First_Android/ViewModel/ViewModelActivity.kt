@@ -1,4 +1,4 @@
-package First_Android.viewModel
+package First_Android.ViewModel
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -15,10 +15,10 @@ class ViewModelActivity : AppCompatActivity() {
         val userVM = ViewModelProviders.of(this)[UserModel::class.java]
 
         userVM.mUserLiveData.observe(this, Observer{
-            textView.text = it.toString()
+            textView_viewModel.text = it.toString()
         })
 
-        button.setOnClickListener {
+        button_viewModel.setOnClickListener {
             userVM.doSomething()
         }
     }

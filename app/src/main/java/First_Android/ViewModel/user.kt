@@ -1,4 +1,4 @@
-package First_Android.viewModel
+package First_Android.ViewModel
 
 import java.io.Serializable
 

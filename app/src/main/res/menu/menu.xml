@@ -28,4 +28,8 @@
         android:title="ViewModel"
         android:orderInCategory="1"/>
 
+    <item android:id="@+id/RxJava"
+        android:title="RxJava"
+        android:orderInCategory="1"/>
+
 </menu>
