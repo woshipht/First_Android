@@ -10,16 +10,21 @@
     <TextView
         android:layout_width="match_parent"
         android:id="@+id/textView_viewModel"
-        android:layout_height="match_parent"
-        android:layout_weight="1"
+        android:layout_height="1dp"
         android:gravity="center"
         android:text="测试一下"/>
 
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/testVm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+
     <Button
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:id="@+id/button_viewModel"
         android:text="点击切换数据"
-        android:layout_weight="10"/>
+        />
 
 </LinearLayout>
