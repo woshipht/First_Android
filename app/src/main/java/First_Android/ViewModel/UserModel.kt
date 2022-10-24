@@ -5,8 +5,6 @@ import androidx.lifecycle.ViewModel
 
 class UserModel: ViewModel() {
     val mUserLiveData : MutableLiveData<User> = MutableLiveData()
-    var num = 100
-    var test1 = tast.getAbc()
 
     init{
         mUserLiveData.postValue(User(1,"name1"))
