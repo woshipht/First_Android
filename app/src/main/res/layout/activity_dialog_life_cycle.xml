@@ -4,7 +4,7 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="First_Android.ActivityLifeCycle.DialogActivity">
+    tools:context="First_Android.chapter3_Activity.ActivityLifeCycle.DialogActivity">
 
     <TextView
         android:layout_width="match_parent"

@@ -1,4 +1,4 @@
-package First_Android.ActivityCollector
+package First_Android.chapter3_Activity.ActivityCollector
 
 import android.app.Activity
 

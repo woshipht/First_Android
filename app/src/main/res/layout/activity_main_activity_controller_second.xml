@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="First_Android.ActivityCollector.SecondActivityOfActivityCollector">
+    tools:context="First_Android.chapter3_Activity.ActivityCollector.SecondActivityOfActivityCollector">
 
     <LinearLayout
         android:layout_width="match_parent"

@@ -1,12 +1,6 @@
 package com.example.firstAndroid
 
-import Data.MenuItemInfo
-import Data.MenuList
-import First_Android.ActivityLifeCycle.ActivityLifeCycleMainActivity
-import First_Android.HttpURLConnection.HttpURLConnectionMainActivity
-import First_Android.JSONObject.JSONObjectMainActivity
-import First_Android.OkHttp.OkHttpMainActivity
-import First_Android.Retrofit.RetrofitMainActivity
+import Utils.MenuListUtils
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -15,7 +9,7 @@ import android.view.MenuItem
 import android.widget.Toast
 
 class MainActivity : AppCompatActivity() {
-    private val menuList = MenuList.getMenuList()
+    private val menuList = MenuListUtils.getMenuList()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

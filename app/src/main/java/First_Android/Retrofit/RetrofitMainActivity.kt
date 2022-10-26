@@ -1,16 +1,8 @@
 package First_Android.Retrofit
 
-import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
-import android.view.Menu
-import android.view.MenuItem
-import android.widget.Toast
-import First_Android.ActivityLifeCycle.ActivityLifeCycleMainActivity
-import First_Android.HttpURLConnection.HttpURLConnectionMainActivity
-import First_Android.JSONObject.JSONObjectMainActivity
-import First_Android.OkHttp.OkHttpMainActivity
 import com.example.firstAndroid.R
 import kotlinx.android.synthetic.main.activity_main_retrofit.*
 import retrofit2.Call

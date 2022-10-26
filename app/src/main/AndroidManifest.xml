@@ -19,13 +19,13 @@
             android:name="First_Android.ViewModel.ViewModelActivity"
             android:exported="false" />
         <activity
-            android:name="First_Android.ActivityCollector.FirstActivityOfActivityCollector"
+            android:name="First_Android.chapter3_Activity.ActivityCollector.FirstActivityOfActivityCollector"
             android:exported="false" />
         <activity
-            android:name="First_Android.ActivityCollector.SecondActivityOfActivityCollector"
+            android:name="First_Android.chapter3_Activity.ActivityCollector.SecondActivityOfActivityCollector"
             android:exported="false" />
         <activity
-            android:name="First_Android.ActivityCollector.ThirdActivityOfActivityCollector"
+            android:name="First_Android.chapter3_Activity.ActivityCollector.ThirdActivityOfActivityCollector"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
@@ -49,14 +49,14 @@
             android:name="First_Android.HttpURLConnection.HttpURLConnectionMainActivity"
             android:exported="false" />
         <activity
-            android:name="First_Android.ActivityLifeCycle.NormalActivity"
+            android:name="First_Android.chapter3_Activity.ActivityLifeCycle.ActivityLifeCycleNormalActivity"
             android:exported="false" />
         <activity
-            android:name="First_Android.ActivityLifeCycle.DialogActivity"
+            android:name="First_Android.chapter3_Activity.ActivityLifeCycle.ActivityLifeCycleDialogActivity"
             android:exported="false"
             android:theme="@style/Theme.AppCompat.Dialog" />
         <activity
-            android:name="First_Android.ActivityLifeCycle.ActivityLifeCycleMainActivity"
+            android:name="First_Android.chapter3_Activity.ActivityLifeCycle.ActivityLifeCycleMainActivity"
             android:exported="false" />
     </application>
 

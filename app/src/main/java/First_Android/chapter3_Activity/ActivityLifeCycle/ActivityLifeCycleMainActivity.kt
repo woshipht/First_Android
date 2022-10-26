@@ -1,34 +1,34 @@
-package First_Android.ActivityLifeCycle
+package First_Android.chapter3_Activity.ActivityLifeCycle
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
-import android.view.Menu
-import android.view.MenuItem
 import android.widget.Toast
-import First_Android.HttpURLConnection.HttpURLConnectionMainActivity
-import Data.MenuList
-import Data.MenuItemInfo
 import com.example.firstAndroid.R
 import kotlinx.android.synthetic.main.activity_main_life_cycle.*
 
+/**
+ * 用于测试Activity的生命周期
+ */
 class ActivityLifeCycleMainActivity : AppCompatActivity() {
-    private val tag = "MainActivity"
+    companion object {
+        private const val TAG = "ActivitiesLifeCycle"
+    }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main_life_cycle)
-        Log.d(tag,"onCreate")
+        Log.d(TAG,"MainActivity_onCreate")
 
         startNormalActivity.setOnClickListener {
-            val intent = Intent(this,NormalActivity::class.java)
+            val intent = Intent(this,ActivityLifeCycleNormalActivity::class.java)
             startActivity(intent)
             Toast.makeText(this,"To Normal Activity",Toast.LENGTH_SHORT).show()
         }
 
         startDialogActivity.setOnClickListener {
-            val intent = Intent(this,DialogActivity::class.java)
+            val intent = Intent(this,ActivityLifeCycleDialogActivity::class.java)
             startActivity(intent)
             Toast.makeText(this,"To Dialog Activity",Toast.LENGTH_SHORT).show()
         }
@@ -36,32 +36,31 @@ class ActivityLifeCycleMainActivity : AppCompatActivity() {
 
     override fun onStart() {
         super.onStart()
-        Log.d(tag,"onStart")
+        Log.d(TAG,"MainActivity_onStart")
     }
 
     override fun onResume() {
         super.onResume()
-        Log.d(tag,"onResume")
+        Log.d(TAG,"MainActivity_onResume")
     }
 
     override fun onPause() {
         super.onPause()
-        Log.d(tag,"onPause")
+        Log.d(TAG,"MainActivity_onPause")
     }
 
     override fun onStop() {
         super.onStop()
-        Log.d(tag,"onStop")
+        Log.d(TAG,"MainActivity_onStop")
     }
 
     override fun onDestroy() {
         super.onDestroy()
-        Log.d(tag,"onDestroy")
+        Log.d(TAG,"MainActivity_onDestroy")
     }
 
     override fun onRestart() {
         super.onRestart()
-        Log.d(tag,"onRestart")
+        Log.d(TAG,"MainActivity_onRestart")
     }
-
 }

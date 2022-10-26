@@ -1,16 +1,8 @@
 package First_Android.HttpURLConnection
 
-import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.Menu
-import android.view.MenuItem
-import android.widget.Toast
-import First_Android.ActivityLifeCycle.ActivityLifeCycleMainActivity
-import First_Android.JSONObject.JSONObjectMainActivity
-import First_Android.OkHttp.OkHttpMainActivity
 import com.example.firstAndroid.R
-import First_Android.Retrofit.RetrofitMainActivity
 import kotlinx.android.synthetic.main.activity_main_http.*
 import java.io.BufferedReader
 import java.io.InputStreamReader

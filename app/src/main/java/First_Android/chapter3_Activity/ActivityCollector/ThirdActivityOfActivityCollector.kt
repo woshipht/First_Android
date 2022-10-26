@@ -1,10 +1,10 @@
-package First_Android.ActivityCollector
+package First_Android.chapter3_Activity.ActivityCollector
 
 import android.os.Bundle
 import com.example.firstAndroid.R
 import kotlinx.android.synthetic.main.activity_main_activity_controller_third.*
 
-class ThirdActivityOfActivityCollector : BaseActivity() {
+class ThirdActivityOfActivityCollector : ActivityCollectorMainActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main_activity_controller_third)
